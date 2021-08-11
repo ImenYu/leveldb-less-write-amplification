@@ -1,0 +1,1 @@
+/usr/bin/g++-7   -fno-exceptions -fno-rtti -g   CMakeFiles/dbclient.dir/dbtests/dbclient.cc.o  -o dbclient libleveldb.a -lpthread 

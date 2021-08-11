@@ -1,0 +1,1 @@
+/usr/bin/g++-7   -fno-exceptions -fno-rtti -g   CMakeFiles/tblapdtest.dir/dbtests/table_appender_test.cc.o  -o tblapdtest libleveldb.a -lpthread 

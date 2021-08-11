@@ -1,0 +1,227 @@
+[
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7   -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/tbltest.dir/dbtests/table_test.cc.o -c /home/markus/Desktop/projects/leveldb-improved/dbtests/table_test.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/dbtests/table_test.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7   -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/dbclient.dir/dbtests/dbclient.cc.o -c /home/markus/Desktop/projects/leveldb-improved/dbtests/dbclient.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/dbtests/dbclient.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7   -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/internalkeytest.dir/dbtests/internal_key_test.cc.o -c /home/markus/Desktop/projects/leveldb-improved/dbtests/internal_key_test.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/dbtests/internal_key_test.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7   -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/filereader.dir/dbtests/filereader.cc.o -c /home/markus/Desktop/projects/leveldb-improved/dbtests/filereader.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/dbtests/filereader.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/db.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/db.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/db.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/db_impl.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/db_impl.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/db_impl.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/dbformat.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/dbformat.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/dbformat.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/memtable.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/memtable.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/memtable.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/write_batch.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/write_batch.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/write_batch.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/filename.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/filename.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/filename.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/log_reader.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/log_reader.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/log_reader.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/log_writer.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/log_writer.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/log_writer.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/version_set.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/version_set.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/version_set.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/version_edit.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/version_edit.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/version_edit.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/table_cache.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/table_cache.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/table_cache.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/builder.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/builder.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/builder.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/section.cc.o -c /home/markus/Desktop/projects/leveldb-improved/db/section.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/db/section.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/block_builder.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/block_builder.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/block_builder.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/block.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/block.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/block.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/filter_block.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/filter_block.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/filter_block.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/format.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/format.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/format.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/iterator.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/iterator.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/iterator.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/merger.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/merger.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/merger.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/table_builder.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/table_builder.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/table_builder.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/table.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/table.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/table.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/two_level_iterator.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/two_level_iterator.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/table_iterator.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/table_iterator.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/table_iterator.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/table_appender.cc.o -c /home/markus/Desktop/projects/leveldb-improved/table/table_appender.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/table/table_appender.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/arena.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/arena.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/arena.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/bloom.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/bloom.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/bloom.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/cache.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/cache.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/cache.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/coding.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/coding.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/coding.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/comparator.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/comparator.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/comparator.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/crc32c.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/crc32c.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/crc32c.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/env.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/env.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/env.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/filter_policy.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/filter_policy.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/filter_policy.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/hash.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/hash.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/hash.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/logging.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/logging.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/logging.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/options.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/options.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/options.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/status.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/status.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/status.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/env_posix.cc.o -c /home/markus/Desktop/projects/leveldb-improved/util/env_posix.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/util/env_posix.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o -c /home/markus/Desktop/projects/leveldb-improved/helpers/memenv/memenv.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/helpers/memenv/memenv.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7   -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/tblapdtest.dir/dbtests/table_appender_test.cc.o -c /home/markus/Desktop/projects/leveldb-improved/dbtests/table_appender_test.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/dbtests/table_appender_test.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7   -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/tblbldtest.dir/dbtests/table_builder_test.cc.o -c /home/markus/Desktop/projects/leveldb-improved/dbtests/table_builder_test.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/dbtests/table_builder_test.cc"
+},
+{
+  "directory": "/home/markus/Desktop/projects/leveldb-improved/build",
+  "command": "/usr/bin/g++-7   -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include   -fno-exceptions -fno-rtti -g   -std=c++11 -o CMakeFiles/filbltest.dir/dbtests/filter_block_test.cc.o -c /home/markus/Desktop/projects/leveldb-improved/dbtests/filter_block_test.cc",
+  "file": "/home/markus/Desktop/projects/leveldb-improved/dbtests/filter_block_test.cc"
+}
+]

@@ -1,0 +1,10 @@
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/edit_cache.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/tbltest.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/dbclient.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/internalkeytest.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/filereader.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/leveldb.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/rebuild_cache.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/tblapdtest.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/tblbldtest.dir
+/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles/filbltest.dir
