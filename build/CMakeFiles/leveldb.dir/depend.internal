@@ -29,7 +29,7 @@ CMakeFiles/leveldb.dir/db/builder.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/db/builder.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/builder.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/db.cc.o
  .././db/db_impl.h
@@ -67,7 +67,7 @@ CMakeFiles/leveldb.dir/db/db.cc.o
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
  ../include/leveldb/write_batch.h
- /home/markus/Desktop/projects/leveldb-improved/db/db.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/db.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o
  .././db/builder.h
@@ -111,7 +111,7 @@ CMakeFiles/leveldb.dir/db/db_impl.cc.o
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
  ../include/leveldb/write_batch.h
- /home/markus/Desktop/projects/leveldb-improved/db/db_impl.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/db_impl.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/dbformat.cc.o
  .././db/dbformat.h
@@ -131,7 +131,7 @@ CMakeFiles/leveldb.dir/db/dbformat.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/db/dbformat.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/dbformat.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/filename.cc.o
  .././db/dbformat.h
@@ -153,7 +153,7 @@ CMakeFiles/leveldb.dir/db/filename.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/db/filename.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/filename.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/log_reader.cc.o
  .././db/log_format.h
@@ -167,7 +167,7 @@ CMakeFiles/leveldb.dir/db/log_reader.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/db/log_reader.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/log_reader.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/log_writer.cc.o
  .././db/log_format.h
@@ -181,7 +181,7 @@ CMakeFiles/leveldb.dir/db/log_writer.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/db/log_writer.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/log_writer.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/memtable.cc.o
  .././db/dbformat.h
@@ -206,7 +206,7 @@ CMakeFiles/leveldb.dir/db/memtable.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/db/memtable.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/memtable.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/section.cc.o
  .././db/dbformat.h
@@ -235,7 +235,7 @@ CMakeFiles/leveldb.dir/db/section.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/db/section.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/section.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/table_cache.cc.o
  .././db/dbformat.h
@@ -261,7 +261,7 @@ CMakeFiles/leveldb.dir/db/table_cache.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/db/table_cache.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/table_cache.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/version_edit.cc.o
  .././db/dbformat.h
@@ -289,7 +289,7 @@ CMakeFiles/leveldb.dir/db/version_edit.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/db/version_edit.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/version_edit.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/version_set.cc.o
  .././db/dbformat.h
@@ -329,7 +329,7 @@ CMakeFiles/leveldb.dir/db/version_set.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/db/version_set.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/version_set.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/write_batch.cc.o
  .././db/dbformat.h
@@ -355,7 +355,7 @@ CMakeFiles/leveldb.dir/db/write_batch.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table_builder.h
  ../include/leveldb/write_batch.h
- /home/markus/Desktop/projects/leveldb-improved/db/write_batch.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/db/write_batch.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o
  .././helpers/memenv/memenv.h
@@ -367,7 +367,7 @@ CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/helpers/memenv/memenv.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/helpers/memenv/memenv.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/table/block.cc.o
  .././port/port.h
@@ -387,7 +387,7 @@ CMakeFiles/leveldb.dir/table/block.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/table/block.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/block.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/table/block_builder.cc.o
  .././port/port.h
@@ -402,7 +402,7 @@ CMakeFiles/leveldb.dir/table/block_builder.cc.o
  ../include/leveldb/filter_policy.h
  ../include/leveldb/options.h
  ../include/leveldb/slice.h
- /home/markus/Desktop/projects/leveldb-improved/table/block_builder.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/block_builder.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/table/filter_block.cc.o
  .././port/port.h
@@ -414,7 +414,7 @@ CMakeFiles/leveldb.dir/table/filter_block.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/filter_policy.h
  ../include/leveldb/slice.h
- /home/markus/Desktop/projects/leveldb-improved/table/filter_block.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/filter_block.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/table/format.cc.o
  .././port/port.h
@@ -434,14 +434,14 @@ CMakeFiles/leveldb.dir/table/format.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/table/format.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/format.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/table/iterator.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/iterator.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/table/iterator.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/iterator.cc
 CMakeFiles/leveldb.dir/table/merger.cc.o
  .././table/iterator_wrapper.h
  .././table/merger.h
@@ -450,7 +450,7 @@ CMakeFiles/leveldb.dir/table/merger.cc.o
  ../include/leveldb/iterator.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/table/merger.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/merger.cc
 CMakeFiles/leveldb.dir/table/table.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
@@ -473,7 +473,7 @@ CMakeFiles/leveldb.dir/table/table.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/table/table.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/table.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/table/table_appender.cc.o
  .././db/dbformat.h
@@ -504,7 +504,7 @@ CMakeFiles/leveldb.dir/table/table_appender.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/table/table_appender.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/table_appender.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/table/table_builder.cc.o
  .././db/dbformat.h
@@ -529,7 +529,7 @@ CMakeFiles/leveldb.dir/table/table_builder.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/table/table_builder.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/table_builder.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/table/table_iterator.cc.o
  .././table/table_iterator.h
@@ -542,7 +542,7 @@ CMakeFiles/leveldb.dir/table/table_iterator.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  ../include/leveldb/table.h
- /home/markus/Desktop/projects/leveldb-improved/table/table_iterator.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/table_iterator.cc
 CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o
  .././table/block.h
  .././table/format.h
@@ -559,17 +559,17 @@ CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o
  ../include/leveldb/status.h
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/table/two_level_iterator.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/table/two_level_iterator.cc
 CMakeFiles/leveldb.dir/util/arena.cc.o
  .././util/arena.h
- /home/markus/Desktop/projects/leveldb-improved/util/arena.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/arena.cc
 CMakeFiles/leveldb.dir/util/bloom.cc.o
  .././util/bloom.h
  .././util/hash.h
  ../include/leveldb/export.h
  ../include/leveldb/filter_policy.h
  ../include/leveldb/slice.h
- /home/markus/Desktop/projects/leveldb-improved/util/bloom.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/bloom.cc
 CMakeFiles/leveldb.dir/util/cache.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
@@ -579,7 +579,7 @@ CMakeFiles/leveldb.dir/util/cache.cc.o
  ../include/leveldb/cache.h
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
- /home/markus/Desktop/projects/leveldb-improved/util/cache.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/cache.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/util/coding.cc.o
  .././port/port.h
@@ -588,7 +588,7 @@ CMakeFiles/leveldb.dir/util/coding.cc.o
  .././util/coding.h
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
- /home/markus/Desktop/projects/leveldb-improved/util/coding.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/coding.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/util/comparator.cc.o
  .././port/port.h
@@ -599,7 +599,7 @@ CMakeFiles/leveldb.dir/util/comparator.cc.o
  ../include/leveldb/comparator.h
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
- /home/markus/Desktop/projects/leveldb-improved/util/comparator.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/comparator.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/util/crc32c.cc.o
  .././port/port.h
@@ -609,14 +609,14 @@ CMakeFiles/leveldb.dir/util/crc32c.cc.o
  .././util/crc32c.h
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
- /home/markus/Desktop/projects/leveldb-improved/util/crc32c.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/crc32c.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/util/env.cc.o
  ../include/leveldb/env.h
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/util/env.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/env.cc
 CMakeFiles/leveldb.dir/util/env_posix.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
@@ -627,12 +627,12 @@ CMakeFiles/leveldb.dir/util/env_posix.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/util/env_posix.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/env_posix.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/util/filter_policy.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/filter_policy.h
- /home/markus/Desktop/projects/leveldb-improved/util/filter_policy.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/filter_policy.cc
 CMakeFiles/leveldb.dir/util/hash.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
@@ -641,7 +641,7 @@ CMakeFiles/leveldb.dir/util/hash.cc.o
  .././util/hash.h
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
- /home/markus/Desktop/projects/leveldb-improved/util/hash.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/hash.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/util/logging.cc.o
  .././port/port.h
@@ -652,7 +652,7 @@ CMakeFiles/leveldb.dir/util/logging.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/util/logging.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/logging.cc
  include/port/port_config.h
 CMakeFiles/leveldb.dir/util/options.cc.o
  .././util/bloom.h
@@ -664,7 +664,7 @@ CMakeFiles/leveldb.dir/util/options.cc.o
  ../include/leveldb/options.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/util/options.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/options.cc
 CMakeFiles/leveldb.dir/util/status.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
@@ -672,5 +672,5 @@ CMakeFiles/leveldb.dir/util/status.cc.o
  ../include/leveldb/export.h
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
- /home/markus/Desktop/projects/leveldb-improved/util/status.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/util/status.cc
  include/port/port_config.h

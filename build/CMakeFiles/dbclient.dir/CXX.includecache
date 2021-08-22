@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-.././include/leveldb/db.h
-cstdint
--
-cstdio
--
-leveldb/export.h
-.././include/leveldb/leveldb/export.h
-leveldb/iterator.h
-.././include/leveldb/leveldb/iterator.h
-leveldb/options.h
-.././include/leveldb/leveldb/options.h
-
 .././util/bloom.h
 leveldb/filter_policy.h
 .././util/leveldb/filter_policy.h
@@ -31,6 +19,18 @@ cstddef
 -
 cstdint
 -
+
+../include/leveldb/db.h
+cstdint
+-
+cstdio
+-
+leveldb/export.h
+../include/leveldb/leveldb/export.h
+leveldb/iterator.h
+../include/leveldb/leveldb/iterator.h
+leveldb/options.h
+../include/leveldb/leveldb/options.h
 
 ../include/leveldb/export.h
 
@@ -78,9 +78,11 @@ leveldb/export.h
 leveldb/slice.h
 ../include/leveldb/leveldb/slice.h
 
-/home/markus/Desktop/projects/leveldb-improved/dbtests/dbclient.cc
-include/leveldb/db.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/include/leveldb/db.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/dbclient.cc
+leveldb/db.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/db.h
+leveldb/slice.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/slice.h
 string.h
 -
 unistd.h
@@ -100,7 +102,5 @@ iostream
 map
 -
 stack
--
-leveldb/slice.h
 -
 

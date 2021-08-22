@@ -198,17 +198,17 @@ leveldb/options.h
 leveldb/status.h
 ../include/leveldb/leveldb/status.h
 
-/home/markus/Desktop/projects/leveldb-improved/dbtests/table_builder_test.cc
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/table_builder_test.cc
 leveldb/options.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/options.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/options.h
 leveldb/table_builder.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/table_builder.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/table_builder.h
 leveldb/env.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/env.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/env.h
 db/filename.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/db/filename.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/filename.h
 db/dbformat.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/db/dbformat.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/dbformat.h
 string.h
 -
 unistd.h

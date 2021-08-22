@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/markus/Desktop/projects/leveldb-improved
+CMAKE_SOURCE_DIR = /home/markus/Desktop/projects/leveldb-less-write-amplification
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/markus/Desktop/projects/leveldb-improved/build
+CMAKE_BINARY_DIR = /home/markus/Desktop/projects/leveldb-less-write-amplification/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/tbltest.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/markus/Desktop/projects/leveldb-improved/build
 CMakeFiles/tbltest.dir/all: CMakeFiles/leveldb.dir/all
 	$(MAKE) -f CMakeFiles/tbltest.dir/build.make CMakeFiles/tbltest.dir/depend
 	$(MAKE) -f CMakeFiles/tbltest.dir/build.make CMakeFiles/tbltest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles --progress-num=52,53 "Built target tbltest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles --progress-num=52,53 "Built target tbltest"
 .PHONY : CMakeFiles/tbltest.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/tbltest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tbltest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tbltest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 0
 .PHONY : CMakeFiles/tbltest.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/tbltest.dir/clean
 CMakeFiles/dbclient.dir/all: CMakeFiles/leveldb.dir/all
 	$(MAKE) -f CMakeFiles/dbclient.dir/build.make CMakeFiles/dbclient.dir/depend
 	$(MAKE) -f CMakeFiles/dbclient.dir/build.make CMakeFiles/dbclient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles --progress-num=1,2 "Built target dbclient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles --progress-num=1,2 "Built target dbclient"
 .PHONY : CMakeFiles/dbclient.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/dbclient.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dbclient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dbclient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 0
 .PHONY : CMakeFiles/dbclient.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/dbclient.dir/clean
 CMakeFiles/internalkeytest.dir/all: CMakeFiles/leveldb.dir/all
 	$(MAKE) -f CMakeFiles/internalkeytest.dir/build.make CMakeFiles/internalkeytest.dir/depend
 	$(MAKE) -f CMakeFiles/internalkeytest.dir/build.make CMakeFiles/internalkeytest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles --progress-num=7,8 "Built target internalkeytest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles --progress-num=7,8 "Built target internalkeytest"
 .PHONY : CMakeFiles/internalkeytest.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/internalkeytest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/internalkeytest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/internalkeytest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 0
 .PHONY : CMakeFiles/internalkeytest.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ clean: CMakeFiles/internalkeytest.dir/clean
 CMakeFiles/filereader.dir/all: CMakeFiles/leveldb.dir/all
 	$(MAKE) -f CMakeFiles/filereader.dir/build.make CMakeFiles/filereader.dir/depend
 	$(MAKE) -f CMakeFiles/filereader.dir/build.make CMakeFiles/filereader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles --progress-num=5,6 "Built target filereader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles --progress-num=5,6 "Built target filereader"
 .PHONY : CMakeFiles/filereader.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: CMakeFiles/filereader.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/filereader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filereader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 0
 .PHONY : CMakeFiles/filereader.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ clean: CMakeFiles/filereader.dir/clean
 CMakeFiles/leveldb.dir/all:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/depend
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target leveldb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target leveldb"
 .PHONY : CMakeFiles/leveldb.dir/all
 
 # Include target in all.
@@ -224,9 +224,9 @@ all: CMakeFiles/leveldb.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/leveldb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/leveldb.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 0
 .PHONY : CMakeFiles/leveldb.dir/rule
 
 # Convenience name for target.
@@ -251,7 +251,7 @@ clean: CMakeFiles/leveldb.dir/clean
 CMakeFiles/tblapdtest.dir/all: CMakeFiles/leveldb.dir/all
 	$(MAKE) -f CMakeFiles/tblapdtest.dir/build.make CMakeFiles/tblapdtest.dir/depend
 	$(MAKE) -f CMakeFiles/tblapdtest.dir/build.make CMakeFiles/tblapdtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles --progress-num=48,49 "Built target tblapdtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles --progress-num=48,49 "Built target tblapdtest"
 .PHONY : CMakeFiles/tblapdtest.dir/all
 
 # Include target in all.
@@ -261,9 +261,9 @@ all: CMakeFiles/tblapdtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tblapdtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tblapdtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 0
 .PHONY : CMakeFiles/tblapdtest.dir/rule
 
 # Convenience name for target.
@@ -288,7 +288,7 @@ clean: CMakeFiles/tblapdtest.dir/clean
 CMakeFiles/tblbldtest.dir/all: CMakeFiles/leveldb.dir/all
 	$(MAKE) -f CMakeFiles/tblbldtest.dir/build.make CMakeFiles/tblbldtest.dir/depend
 	$(MAKE) -f CMakeFiles/tblbldtest.dir/build.make CMakeFiles/tblbldtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles --progress-num=50,51 "Built target tblbldtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles --progress-num=50,51 "Built target tblbldtest"
 .PHONY : CMakeFiles/tblbldtest.dir/all
 
 # Include target in all.
@@ -298,9 +298,9 @@ all: CMakeFiles/tblbldtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tblbldtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tblbldtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 0
 .PHONY : CMakeFiles/tblbldtest.dir/rule
 
 # Convenience name for target.
@@ -325,7 +325,7 @@ clean: CMakeFiles/tblbldtest.dir/clean
 CMakeFiles/filbltest.dir/all: CMakeFiles/leveldb.dir/all
 	$(MAKE) -f CMakeFiles/filbltest.dir/build.make CMakeFiles/filbltest.dir/depend
 	$(MAKE) -f CMakeFiles/filbltest.dir/build.make CMakeFiles/filbltest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles --progress-num=3,4 "Built target filbltest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles --progress-num=3,4 "Built target filbltest"
 .PHONY : CMakeFiles/filbltest.dir/all
 
 # Include target in all.
@@ -335,9 +335,9 @@ all: CMakeFiles/filbltest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/filbltest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filbltest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-improved/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/markus/Desktop/projects/leveldb-less-write-amplification/build/CMakeFiles 0
 .PHONY : CMakeFiles/filbltest.dir/rule
 
 # Convenience name for target.

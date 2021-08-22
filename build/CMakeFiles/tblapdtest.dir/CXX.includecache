@@ -248,15 +248,15 @@ leveldb/options.h
 leveldb/status.h
 ../include/leveldb/leveldb/status.h
 
-/home/markus/Desktop/projects/leveldb-improved/dbtests/table_appender_test.cc
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/table_appender_test.cc
 table/table_appender.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/table/table_appender.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/table/table_appender.h
 leveldb/status.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/status.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/status.h
 db/filename.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/db/filename.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/filename.h
 db/dbformat.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/db/dbformat.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/dbformat.h
 string
 -
 vector

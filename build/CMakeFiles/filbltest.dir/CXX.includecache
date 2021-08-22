@@ -186,13 +186,13 @@ leveldb/options.h
 leveldb/status.h
 ../include/leveldb/leveldb/status.h
 
-/home/markus/Desktop/projects/leveldb-improved/dbtests/filter_block_test.cc
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/filter_block_test.cc
 table/filter_block.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/table/filter_block.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/table/filter_block.h
 leveldb/options.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/options.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/options.h
 db/dbformat.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/db/dbformat.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/dbformat.h
 string
 -
 vector
