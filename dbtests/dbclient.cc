@@ -1,4 +1,6 @@
-#include "include/leveldb/db.h"
+#include "leveldb/db.h"
+#include "leveldb/slice.h"
+
 #include <string.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -11,8 +13,6 @@
 #include <iostream>
 #include <map>
 #include <stack>
-
-#include <leveldb/slice.h>
 
 using std::string;
 using std::to_string;

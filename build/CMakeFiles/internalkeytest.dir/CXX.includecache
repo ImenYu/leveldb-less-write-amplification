@@ -172,9 +172,9 @@ leveldb/options.h
 leveldb/status.h
 ../include/leveldb/leveldb/status.h
 
-/home/markus/Desktop/projects/leveldb-improved/dbtests/internal_key_test.cc
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/internal_key_test.cc
 db/dbformat.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/db/dbformat.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/dbformat.h
 
 include/port/port_config.h
 

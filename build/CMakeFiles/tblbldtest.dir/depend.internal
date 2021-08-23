@@ -21,5 +21,5 @@ CMakeFiles/tblbldtest.dir/dbtests/table_builder_test.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  ../include/leveldb/table_builder.h
- /home/markus/Desktop/projects/leveldb-improved/dbtests/table_builder_test.cc
+ /home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/table_builder_test.cc
  include/port/port_config.h

@@ -254,23 +254,23 @@ leveldb/options.h
 leveldb/status.h
 ../include/leveldb/leveldb/status.h
 
-/home/markus/Desktop/projects/leveldb-improved/dbtests/filereader.cc
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/filereader.cc
 leveldb/env.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/env.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/env.h
 leveldb/options.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/options.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/options.h
 leveldb/status.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/status.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/status.h
 leveldb/table.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/table.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/table.h
 leveldb/cache.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/leveldb/cache.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/cache.h
 table/format.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/table/format.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/table/format.h
 db/table_cache.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/db/table_cache.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/table_cache.h
 db/filename.h
-/home/markus/Desktop/projects/leveldb-improved/dbtests/db/filename.h
+/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/filename.h
 string
 -
 

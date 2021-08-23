@@ -6,5 +6,5 @@ CXX_FLAGS =  -fno-exceptions -fno-rtti -g   -std=c++11
 
 CXX_DEFINES = -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1
 
-CXX_INCLUDES = -I/home/markus/Desktop/projects/leveldb-improved/build/include -I/home/markus/Desktop/projects/leveldb-improved/. -I/home/markus/Desktop/projects/leveldb-improved/include 
+CXX_INCLUDES = -I/home/markus/Desktop/projects/leveldb-less-write-amplification/build/include -I/home/markus/Desktop/projects/leveldb-less-write-amplification/. -I/home/markus/Desktop/projects/leveldb-less-write-amplification/include 
 
