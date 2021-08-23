@@ -19,6 +19,7 @@ namespace leveldb
         *dbptr=nullptr;
         DBImpl *impl=new DBImpl(options,dbname);
 
+        
         impl->mutex_.Lock();
 
         Status s=impl->env_->RemoveDir(dbname);
