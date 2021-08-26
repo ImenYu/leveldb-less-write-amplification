@@ -2,6 +2,7 @@
 #include "leveldb/status.h"
 #include "db/filename.h"
 #include "db/dbformat.h"
+#include "dbtests/common.h"
 #include <string>
 #include <vector>
 
@@ -10,40 +11,6 @@ using std::string;
 using std::to_string;
 using std::vector;
 using std::pair;
-
-static void generate_rand_string(string *s)
-{
-    int len=rand()%500+500;
-    for(int i=0;i<len;i++)
-    {
-        char c;
-        switch ((rand() % 3))
-        {
-        case 1:
-            c='A'+rand()%26;
-            break;
-        case 2:
-            c='a'+rand()%26;
-            break;
-        default:
-            c='0'+rand()%10;
-            break;
-        }
-        s->push_back(c);
-    }
-}
-
-static string * new_internal_key(int i, SequenceNumber sequence,ValueType value_type)
-{
-    char buf[100];
-    string *key=new string();
-    snprintf(buf,100,"%010d",i);
-    key->append(buf,10);
-
-    EncodeFixed64(buf,(sequence<<8)|value_type);
-    key->append(buf,8);
-    return key;
-}
 
 int main(int argc, char const *argv[])
 {
@@ -90,11 +57,11 @@ int main(int argc, char const *argv[])
     {
         string *key=new_internal_key(i,i+1,kTypeValue);// sequence number is 1 bigger than original corresponding user kers
         string *value=new string();
-        generate_rand_string(value);
+        (*value)=generate_rand_string();
         newly_appended_pairs.push_back(pair<string*,string*>(key,value));
         table_appender->Append(*key,*value);
     }
-    
+    printf("num of appended pairs: %d\n",table_appender->NumAppendedEntries());
     table_appender->Finish();
 
     InternalKey smallest=table_appender->GetSmallestKey();

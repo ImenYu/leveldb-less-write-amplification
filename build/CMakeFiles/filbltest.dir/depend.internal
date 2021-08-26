@@ -3,6 +3,7 @@
 
 CMakeFiles/filbltest.dir/dbtests/filter_block_test.cc.o
  .././db/dbformat.h
+ .././dbtests/common.h
  .././port/port.h
  .././port/port_stdcxx.h
  .././port/thread_annotations.h

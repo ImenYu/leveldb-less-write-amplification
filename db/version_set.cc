@@ -1181,7 +1181,7 @@ void VersionSet::MarkFileNumberUsed(uint64_t number) {
   }
 }
 
-// set the compaction_level_ and the compaction_score_ for version v
+// choose the candidate level for compaction
 void VersionSet::Finalize(Version* v) {
   // Precomputed best level for next compaction
   int best_level = -1;
@@ -1412,8 +1412,8 @@ Compaction* VersionSet::PickCompaction()
     assert(level + 1 < config::kNumLevels);
     c = new Compaction(options_, level);
 
-    // Pick the largest file from each level
-
+    // Pick the largest file from the chosen level
+    
     FileMetaData* f_to_compact=nullptr;
     uint64_t largest_file_size=0;
     for (size_t i = 0; i < current_version_->files_[level].size(); i++) 

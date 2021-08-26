@@ -1,6 +1,7 @@
 #include "table/filter_block.h"
 #include "leveldb/options.h"
 #include "db/dbformat.h"
+#include "dbtests/common.h"
 #include <string>
 #include <vector>
 
@@ -8,41 +9,6 @@ using std::string;
 using std::vector;
 using std::to_string;
 using namespace leveldb;
-
-static void generate_rand_string(string *s)
-{
-    int len=rand()%500+500;
-    for(int i=0;i<len;i++)
-    {
-        char c;
-        switch ((rand() % 3))
-        {
-        case 1:
-            c='A'+rand()%26;
-            break;
-        case 2:
-            c='a'+rand()%26;
-            break;
-        default:
-            c='0'+rand()%10;
-            break;
-        }
-        s->push_back(c);
-    }
-}
-
-static string * new_internal_key(int i, SequenceNumber sequence,ValueType value_type)
-{
-    char buf[100];
-    string *key=new string();
-    snprintf(buf,100,"%010d",i);
-    key->append(buf,10);
-
-    EncodeFixed64(buf,(sequence<<8)|value_type);
-    key->append(buf,8);
-    return key;
-}
-
 
 
 int main(int argc, char const *argv[])
