@@ -219,8 +219,11 @@ leveldb/options.h
 /home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/options.h
 db/dbformat.h
 /home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/db/dbformat.h
+<<<<<<< HEAD
 dbtests/common.h
 /home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/dbtests/common.h
+=======
+>>>>>>> 585faf69d5b6321db0f705166fb9862bece94a1c
 string
 -
 vector
