@@ -40,32 +40,6 @@ leveldb/status.h
 port/port.h
 .././db/port/port.h
 
-.././dbtests/common.h
-db/dbformat.h
-.././dbtests/db/dbformat.h
-util/coding.h
-.././dbtests/util/coding.h
-string.h
--
-unistd.h
--
-fcntl.h
--
-dirent.h
--
-sys/types.h
--
-sys/stat.h
--
-assert.h
--
-iostream
--
-map
--
-stack
--
-
 .././port/port.h
 string.h
 -
@@ -259,6 +233,9 @@ iostream
 vector
 -
 stack
+-
+-
+include/port/port_config.h
 -
 
 include/port/port_config.h

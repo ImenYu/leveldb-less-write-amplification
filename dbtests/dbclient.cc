@@ -1,25 +1,10 @@
 #include "leveldb/db.h"
 #include "leveldb/slice.h"
-#include <fcntl.h>
-#include <dirent.h>
 #include "dbtests/common.h"
-
-#include <sys/types.h> 
-#include <sys/stat.h>
-
-#include <assert.h>
-#include <iostream>
-#include <map>
-#include <stack>
-
-using std::string;
-using std::to_string;
-using std::pair;
-using std::stack;
-using std::map;
 
 int main(int argc, char const *argv[])
 {
+    leveldb::DB *db;
     leveldb::Options options;
     options.create_if_missing=true;
     
