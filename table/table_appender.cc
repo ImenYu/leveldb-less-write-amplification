@@ -19,9 +19,10 @@ namespace leveldb
     {
         Rep(const Options& opt,RandomReWrFile *f,const Footer &footer, const BlockContents &index_block_contents,uint64_t file_size,uint64_t r_bytes):
             options(opt),
+            index_block_options(opt),
             file(f),
-            index_block_builder(&options),
             data_block_builder(&options),
+            index_block_builder(&index_block_options),
             newly_added_indices(&options),
             filter_block_builder(opt.filter_policy==nullptr?
                         nullptr:new FilterBlockBuilder(opt.filter_policy)),
@@ -33,6 +34,7 @@ namespace leveldb
         {
             original_index_block=new Block(index_block_contents);
             original_metaindex_block_handle=footer.metaindex_handle();
+            index_block_options.block_restart_interval=1;
             smallest_key.Clear();
             largest_key.Clear();
         }
@@ -43,6 +45,7 @@ namespace leveldb
             delete filter_block_builder;
         }
         Options options;
+        Options index_block_options;
         Status status;
         RandomReWrFile *file;
         bool closed;
