@@ -29,7 +29,7 @@ using std::stack;
 int main(int argc, char const *argv[])
 {
     Options raw_options; 
-    std::string dbname="./dbfiles";
+    std::string dbname="/tmp/dbfiles";
     if(raw_options.filter_policy==nullptr)
     {
         printf("no filter policy\n");

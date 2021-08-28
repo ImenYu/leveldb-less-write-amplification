@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
     options.comparator=&icmp;
     options.filter_policy=raw_options.filter_policy==nullptr ? nullptr:&internal_filter_policy;
 
-    string dbname="./dbfiles";
+    string dbname="/tmp/dbfiles";
     uint64_t file_num=5;
     string file_path=TableFileName(dbname,file_num);
 

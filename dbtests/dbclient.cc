@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     leveldb::Options options;
     options.create_if_missing=true;
     
-    string dbname="./dbfiles";
+    string dbname="/tmp/dbfiles";
     RemoveNonEmptyDir(dbname);
 
     leveldb::Status status = leveldb::DB::Open(options,dbname, &db);
