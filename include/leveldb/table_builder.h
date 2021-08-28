@@ -35,7 +35,7 @@ namespace leveldb
         uint64_t FileSize() const;
     private:
         bool ok();
-        void AppendBlockToFile(BlockBuilder *block_builder, BlockHandle *block_handle);
+        void AppendBlockToFile(const Slice& raw, BlockHandle *block_handle);
         void AppendRawBlockToFile(const Slice &data, CompressionType, BlockHandle *block_handle);
 
         struct Rep;

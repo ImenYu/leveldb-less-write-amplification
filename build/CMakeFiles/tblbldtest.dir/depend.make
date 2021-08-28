@@ -3,6 +3,7 @@
 
 CMakeFiles/tblbldtest.dir/dbtests/table_builder_test.cc.o: .././db/dbformat.h
 CMakeFiles/tblbldtest.dir/dbtests/table_builder_test.cc.o: .././db/filename.h
+CMakeFiles/tblbldtest.dir/dbtests/table_builder_test.cc.o: .././dbtests/common.h
 CMakeFiles/tblbldtest.dir/dbtests/table_builder_test.cc.o: .././port/port.h
 CMakeFiles/tblbldtest.dir/dbtests/table_builder_test.cc.o: .././port/port_stdcxx.h
 CMakeFiles/tblbldtest.dir/dbtests/table_builder_test.cc.o: .././port/thread_annotations.h

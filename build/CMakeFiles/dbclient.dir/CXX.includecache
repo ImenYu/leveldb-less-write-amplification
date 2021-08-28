@@ -6,7 +6,6 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
 .././db/dbformat.h
 cstddef
 -
@@ -89,8 +88,6 @@ port/thread_annotations.h
 
 .././port/thread_annotations.h
 
-=======
->>>>>>> 585faf69d5b6321db0f705166fb9862bece94a1c
 .././util/bloom.h
 leveldb/filter_policy.h
 .././util/leveldb/filter_policy.h
@@ -117,7 +114,6 @@ cstddef
 cstdint
 -
 
-<<<<<<< HEAD
 .././util/logging.h
 cstdint
 -
@@ -134,8 +130,6 @@ string
 leveldb/export.h
 ../include/leveldb/leveldb/export.h
 
-=======
->>>>>>> 585faf69d5b6321db0f705166fb9862bece94a1c
 ../include/leveldb/db.h
 cstdint
 -
@@ -194,7 +188,6 @@ leveldb/export.h
 leveldb/slice.h
 ../include/leveldb/leveldb/slice.h
 
-<<<<<<< HEAD
 ../include/leveldb/table_builder.h
 cstdint
 -
@@ -214,31 +207,4 @@ dbtests/common.h
 /home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/dbtests/common.h
 
 include/port/port_config.h
-=======
-/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/dbclient.cc
-leveldb/db.h
-/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/db.h
-leveldb/slice.h
-/home/markus/Desktop/projects/leveldb-less-write-amplification/dbtests/leveldb/slice.h
-string.h
--
-unistd.h
--
-fcntl.h
--
-dirent.h
--
-sys/types.h
--
-sys/stat.h
--
-assert.h
--
-iostream
--
-map
--
-stack
--
->>>>>>> 585faf69d5b6321db0f705166fb9862bece94a1c
 

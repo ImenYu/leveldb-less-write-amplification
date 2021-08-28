@@ -140,7 +140,8 @@ namespace leveldb
         Rep *r=rep_;
         assert(!r->closed);
         if(!ok()) return;
-        AppendBlockToFile(&r->data_block_builder,&r->pending_handle);
+        AppendBlockToFile(r->data_block_builder.GenerateRawBlock(),&r->pending_handle);
+        r->data_block_builder.Reset();
         if(ok())
         {
             r->status=r->file->Flush();
@@ -179,7 +180,7 @@ namespace leveldb
         // the block handle of the filter block
         if (ok()) 
         {
-            BlockBuilder meta_index_block(&r->options);
+            BlockBuilder meta_index_block_builder(&r->options);
             if (r->filter_block_builder != nullptr) 
             {
                 // Add mapping from "filter.Name" to location of filter data
@@ -187,17 +188,18 @@ namespace leveldb
                 key.append(r->options.filter_policy->Name());
                 std::string handle_encoding;
                 filter_block_handle.EncodeTo(&handle_encoding);
-                meta_index_block.Add(key, handle_encoding);
+                meta_index_block_builder.Add(key, handle_encoding);
             }
 
             // TODO(postrelease): Add stats and other meta blocks
-            AppendBlockToFile(&meta_index_block, &metaindex_block_handle);
+            AppendBlockToFile(meta_index_block_builder.GenerateRawBlock(), &metaindex_block_handle);
         }
 
         if(ok())
         {
-            AppendBlockToFile(&r->index_block_builder,&index_block_handle);
+            AppendBlockToFile(r->index_block_builder.GenerateRawBlock(),&index_block_handle);
         }
+
 
         if (ok()) 
         {
@@ -221,11 +223,10 @@ namespace leveldb
     // block_data: uint8[n](maybe compressed)
     // type: uint8
     // crc: uint32
-    void TableBuilder::AppendBlockToFile(BlockBuilder* block_builder, BlockHandle* handle)
+    void TableBuilder::AppendBlockToFile(const Slice& raw, BlockHandle* handle)
     {
         assert(ok());
         Rep* r = rep_;
-        Slice raw = block_builder->GenerateRawBlock();
 
         Slice block_contents;
         CompressionType type = r->options.compression;
@@ -255,7 +256,6 @@ namespace leveldb
         }
         AppendRawBlockToFile(block_contents, type, handle);
         r->compressed_output.clear();
-        block_builder->Reset();
     }
 
     void TableBuilder::AppendRawBlockToFile(const Slice& block_contents,

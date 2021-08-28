@@ -3,6 +3,7 @@
 
 CMakeFiles/tblapdtest.dir/dbtests/table_appender_test.cc.o: .././db/dbformat.h
 CMakeFiles/tblapdtest.dir/dbtests/table_appender_test.cc.o: .././db/filename.h
+CMakeFiles/tblapdtest.dir/dbtests/table_appender_test.cc.o: .././dbtests/common.h
 CMakeFiles/tblapdtest.dir/dbtests/table_appender_test.cc.o: .././port/port.h
 CMakeFiles/tblapdtest.dir/dbtests/table_appender_test.cc.o: .././port/port_stdcxx.h
 CMakeFiles/tblapdtest.dir/dbtests/table_appender_test.cc.o: .././port/thread_annotations.h
